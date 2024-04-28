@@ -1,0 +1,114 @@
+.header {
+    background-color: black;
+    color: white;
+    height: 59px;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+}
+header h1 {
+    height: 50%;
+    width: 221px;
+    font-size: 50px;  
+}
+.bg-background {
+    height: 727px;
+    
+    text-align: center;
+    background-image: url(../img/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagen {
+    display: flex;
+    gap: 20px;
+    justify-content:center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 348px;
+}
+.parrafo {
+    font-size: 1.3rem;
+    width: 45%;
+    margin: 20px;
+    padding: 20px;
+}
+.parrafo p {
+    margin-bottom: 10px;
+    float: left;
+    width: 475px;
+}
+
+.iguana {
+    width: 45%;
+}
+.iguana img {
+    width: 399px;
+}
+.iconos {
+    background-color: #1E1A13;
+    color: white;
+    height: 348px;
+    width: 100%; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.texto {
+    display: flex;
+    justify-content: center;
+}
+.subtitulo {
+    width: 356px;
+    font-size: 47px;
+}
+.icon {
+    display: flex;
+    gap: 100px;
+    justify-content:space-evenly;
+}
+.icono1, .icono2, .icono3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icono {   
+    font-size: 50px;
+    margin: 25px;
+}
+.nombre {
+    font-size: 29px;
+    text-align: center;
+}
+.galeria {
+    display: flex;
+    height: 348px;
+    background-color: black;
+    gap: 10px;
+    justify-content:center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.galeria img {  
+    width: 316px;
+    height: 202px;
+}
+footer {
+    height: 102px;
+    background-color: #1E1A13;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+footer a:link {
+    color: white;
+}
+footer a:visited {
+    color: white;
+}
+
+
